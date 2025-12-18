@@ -90,7 +90,7 @@ export const MOCK_PRODUCTS: Product[] = [
     description: 'Healthy and strong bull, perfect for breeding or meat. 3 years old.',
     imageUrl: 'https://picsum.photos/id/1074/400/300', // Lion placeholder, imagine its a bull
     sellerName: 'Alhaji Tanko',
-    sellerPhone: '2348000000002'
+    sellerPhone: '2348059063694'
   },
   {
     id: '3',
