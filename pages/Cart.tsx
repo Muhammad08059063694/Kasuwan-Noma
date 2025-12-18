@@ -17,9 +17,8 @@ const Cart: React.FC<CartProps> = ({ cart, removeFromCart, t }) => {
     const totalMsg = `Total: ₦${total.toLocaleString()}`;
     const message = `Hello, I would like to place an order on Kasuwar Noma:%0A%0A${orderList}%0A%0A${totalMsg}`;
     
-    // In a real app, this would go to a specific admin or a specific seller. 
-    // Here we simulate sending to a central line or the first seller found.
-    window.open(`https://wa.me/2348000000000?text=${message}`, '_blank');
+    // Updated central line/admin number as requested
+    window.open(`https://wa.me/2348059063694?text=${message}`, '_blank');
   };
 
   return (
